@@ -25,7 +25,7 @@ SECRET_KEY = '9u6j))n&^ybq8-008_+o-iuafghwmo)q@z4kh&6%)#h*ukqhfg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['172.18.38.149']
 
 
 # Application definition
@@ -79,9 +79,6 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'dogcollector',
-        'USER': 'postgres',
-        'PASSWORD': 'brocks',
-        'HOST': '127.0.0.1',
     }
 }
 
